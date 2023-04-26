@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: cursive;
+}
+
+header {
+    min-height: 100vh;
+    color: dodgerblue;
+}
+
+.nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo {
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__link {
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 14px;
+    padding: 20px 0;
+    display: block;
+}
